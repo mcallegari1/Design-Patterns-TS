@@ -2,6 +2,9 @@ import CreditCard from "./CreditCard";
 import DebitCard from "./DebitCard";
 import NubankRewards from "./NubankRewards";
 
+// LSP - LISKOV SUBSTITUTION PRINCIPLE 
+// UMA CLASSE DERIVADA PODE SER SUBSTITUÍVEL POR SUA CLASSE BASE
+
 const card = new CreditCard();
 card.validate();
 card.collectPayment();
